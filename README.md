@@ -17,11 +17,6 @@ The dataset contains daily statistics for trending YouTube videos with up to 200
 
 Dataset link: https://www.kaggle.com/datasets/datasnaek/youtube-new
 
-<p align="center">
-  <img width="200" height="250" src="https://github-production-user-asset-6210df.s3.amazonaws.com/22219089/260061253-c0da62a5-a9ca-46d2-b171-619814ab02c5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231129%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231129T195904Z&X-Amz-Expires=300&X-Amz-Signature=3f5eae8a0e6dc45897bc28cb79b11878e4ecb47900e22093cbe9a540a9671e25&X-Amz-SignedHeaders=host&actor_id=152231834&key_id=0&repo_id=677128696">
-  <h6 align = "center" > 
-</p>
-
 # Amazon Web Services used in this project
 1. **AWS S3**: Amazon Simple Storage Service (Amazon S3) is a storage service that offers high scalability, data availability, security, and performance. It stores the data as objects within buckets and is readily available for integration with thousands of applications. An object is a file and any metadata that describes the file. A bucket is a container for objects. <br />
 2. **AWS IAM**: Amazon Identity and Access Management is a service to securely control access to AWS Services. It is used to manage permissions for different roles under various scenarios. IAM is used to control who is authenticated (signed in) and authorized (has permissions) to use resources.<br />
