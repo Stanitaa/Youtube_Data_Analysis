@@ -39,7 +39,7 @@ Dataset link: https://www.kaggle.com/datasets/datasnaek/youtube-new
   
   <p align="center">
   <img width="550" height="100" src="https://github.com/chayansraj/Youtube-video-data-analytics-using-AWS/assets/22219089/0d472672-0bd2-48f8-b6b2-8287538edbdf">
-  <h6 align = "center" > Source: Author </h6>
+  <h6 align = "center" > 
   </p>
 
   There are two formats for each region namely csv and json files. The files are stored as S3 objects inside buckets in regions of your choice. The objects can be accessed anywhere with the help of a unique S3 URI (Uniform Resource Identifier).
@@ -48,7 +48,7 @@ Dataset link: https://www.kaggle.com/datasets/datasnaek/youtube-new
   
   <p align="center">
   <img width="550" height="150" src="https://github.com/chayansraj/Youtube-video-data-analytics-using-AWS/assets/22219089/c0da62a5-a9ca-46d2-b171-619814ab02c5">
-  <h6 align = "center" > Source: Author </h6>
+  <h6 align = "center" > 
   </p>
 
   It is important to understand the structure of each data asset in your project. AWS crawler is a service that rund iteratively through each data source and infers their schema, structure and formats. It stores all this information in AWS Glue Catalog which is composed of databases and tables that provide a logical structure for storing and managing all the metadata. AWS Glue tables also store essential metadata such as column names, data types, and partition keys.
@@ -57,7 +57,7 @@ Dataset link: https://www.kaggle.com/datasets/datasnaek/youtube-new
 
   <p align="center">
   <img width="550" height="350" src="https://github.com/chayansraj/Youtube-video-data-analytics-using-AWS/assets/22219089/28aaf2c7-b85c-47e6-93b5-e9516f1889ce">
-  <h6 align = "center" > Source: Author </h6>
+  <h6 align = "center" > 
   </p>
 
   AWS Lambda allows serverless compute functionality to run code in python (in this case) to process data according to business requirements. In our case, we will convert our data format from .json to parquet and store it new bucket. Parquet is an efficient data format than csv and json and is consistent across the data pipeline. It also creates updated data catalog in AWS Glue Catalog with updated schemas and column datatypes.
@@ -66,21 +66,21 @@ Dataset link: https://www.kaggle.com/datasets/datasnaek/youtube-new
 
   <p align="center">
   <img width="550" height="150" src="https://github.com/chayansraj/Youtube-video-data-analytics-using-AWS/assets/22219089/bff402b9-c8bb-4d42-a1f2-2246c83b1b3d">
-  <h6 align = "center" > Source: Author </h6>
+  <h6 align = "center" > 
   </p>
 
   Since we will not be manually processing new data every time, it is efficient to create ETL jobs that automate the data processing and data delivery task to the stakeholder. In our case, we join the two dataframes on category_id and id column and create a final cleaned data ready for analysis. The script has been uploaded in the file section.
 
   <p align="center">
   <img width="650" height="500" src="https://github.com/chayansraj/Youtube-video-data-analytics-using-AWS/assets/22219089/b6764948-478c-4d54-a435-ab924c8dfea4">
-  <h6 align = "center" > Source: Author </h6>
+  <h6 align = "center" > 
   </p>
       
 * **Step 5** - Create a dashboard to visualize and answer questions according to business requirements or perform data analytics using AWS Athena.
   
     <p align="center">
   <img width="800" height="700" src="https://github.com/chayansraj/Youtube-video-data-analytics-using-AWS/assets/22219089/1218e8f8-2a53-46e0-adb4-d6aecb8cb219">
-  <h6 align = "center" > Source: Author </h6>
+  <h6 align = "center" > 
   </p>
 
   Quicksight can be used as a business intelligence tool to deliver easy-to-understand insights to the people who you work with, wherever they are. Many other BI tools can be integrated with the final cleaned dataset. 
