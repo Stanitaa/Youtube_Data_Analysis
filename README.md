@@ -63,10 +63,10 @@ Dataset link: https://www.kaggle.com/datasets/datasnaek/youtube-new
   </p>
 
   Since we will not be manually processing new data every time, it is efficient to create ETL jobs that automate the data processing and data delivery task to the stakeholder. In our case, we join the two dataframes on category_id and id column and create a final cleaned data ready for analysis. The script has been uploaded in the file section.
+<img width="836" alt="Screenshot 2023-11-30 at 05 04 15" src="https://github.com/Stanitaa/Youtube-data-Analysis-/assets/152231834/2cd3d97e-a548-4cf8-a60b-f131f57abc7f">
 
   <p align="center">
-  <img width="650" height="500" src="https://github-production-user-asset-6210df.s3.amazonaws.com/22219089/260081013-b6764948-478c-4d54-a435-ab924c8dfea4.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231129%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231129T200119Z&X-Amz-Expires=300&X-Amz-Signature=11efe28d5b94fbfc92a0b787eb73aa426774f5c274aa894872881e89993597fa&X-Amz-SignedHeaders=host&actor_id=152231834&key_id=0&repo_id=677128696">
-  <h6 align = "center" > 
+  
   </p>
       
 * **Step 5** - Create a dashboard to visualize and answer questions according to business requirements or perform data analytics using AWS Athena.
