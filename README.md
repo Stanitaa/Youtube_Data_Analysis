@@ -15,7 +15,7 @@ The dataset contains daily statistics for trending YouTube videos with up to 200
   1. Each region’s trending video data is in a separate .csv file. Data includes both numerical and categorical columns and some of them are the video title, channel title, publish time, tags, views, likes and dislikes, description, and comment count.
   2. Each video is also associated with its video category which is stored in a separate .json file that varies between regions.
 
-## Dataset link: https://www.kaggle.com/datasets/datasnaek/youtube-new
+Dataset link: https://www.kaggle.com/datasets/datasnaek/youtube-new
 
 # Amazon Web Services used in this project
 1. **AWS S3**: Amazon Simple Storage Service (Amazon S3) is a storage service that offers high scalability, data availability, security, and performance. It stores the data as objects within buckets and is readily available for integration with thousands of applications. An object is a file and any metadata that describes the file. A bucket is a container for objects. <br />
