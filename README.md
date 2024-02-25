@@ -31,7 +31,7 @@ Dataset link: https://www.kaggle.com/datasets/datasnaek/youtube-new
   The first step includes exporting data from Kaggle to Amazon S3 buckets. 
   
   <p align="center">
-  <img width="550" height="100" src="https://github-production-user-asset-6210df.s3.amazonaws.com/22219089/260062588-0d472672-0bd2-48f8-b6b2-8287538edbdf.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231129%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231129T195758Z&X-Amz-Expires=300&X-Amz-Signature=fe4febd56c3980a99ae19de931214dedb75df1d806c9dc12511e5a73bc9d0f7f&X-Amz-SignedHeaders=host&actor_id=152231834&key_id=0&repo_id=677128696">
+    <img width="868" alt="Screenshot 2024-02-25 at 12 34 01" src="https://github.com/Stanitaa/Youtube-data-Analysis-/assets/152231834/24ea9919-2961-495f-afc1-800eae703092">
   <h6 align = "center" > 
   </p>
 
@@ -40,7 +40,7 @@ Dataset link: https://www.kaggle.com/datasets/datasnaek/youtube-new
 * **Step 2** - Create a central repository of metadata of all the data assets in your project.
   
   <p align="center">
-  <img width="550" height="150" src="https://github-production-user-asset-6210df.s3.amazonaws.com/22219089/260061253-c0da62a5-a9ca-46d2-b171-619814ab02c5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231129%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231129T195956Z&X-Amz-Expires=300&X-Amz-Signature=491a13ccf81089d4c043ef94005d08e04da9db766324ce6c30a3cebc10beb284&X-Amz-SignedHeaders=host&actor_id=152231834&key_id=0&repo_id=677128696">
+    <img width="774" alt="Screenshot 2024-02-25 at 12 34 09" src="https://github.com/Stanitaa/Youtube-data-Analysis-/assets/152231834/2a4c522c-1592-48a8-8c71-65ba2cb62cf6">
   <h6 align = "center" > 
   </p>
 
@@ -49,7 +49,7 @@ Dataset link: https://www.kaggle.com/datasets/datasnaek/youtube-new
 * **Step 3** - Create a AWS Lambda function that processes any new incoming data and stores it in cleansed Amazon S3 buckets.
 
   <p align="center">
-  <img width="550" height="350" src="https://github-production-user-asset-6210df.s3.amazonaws.com/22219089/260073386-28aaf2c7-b85c-47e6-93b5-e9516f1889ce.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231129%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231129T200032Z&X-Amz-Expires=300&X-Amz-Signature=329239eafc8fe6cec9ca60d4f0ba445f9cec2afe3f6cab5489fca30639bf9c3e&X-Amz-SignedHeaders=host&actor_id=152231834&key_id=0&repo_id=677128696">
+    <img width="832" alt="Screenshot 2024-02-25 at 12 34 19" src="https://github.com/Stanitaa/Youtube-data-Analysis-/assets/152231834/a916dc71-7a3d-4b3e-be47-d739542f52cc">
   <h6 align = "center" > 
   </p>
 
@@ -58,21 +58,21 @@ Dataset link: https://www.kaggle.com/datasets/datasnaek/youtube-new
 * **Step 4** - Create ETL jobs to extract data from S3 buckets, apply join transformation and load for further data analysis.
 
   <p align="center">
-  <img width="550" height="150" src="[https://github.com/chayansraj/Youtube-video-data-analytics-using-AWS/assets/22219089/bff402b9-c8bb-4d42-a1f2-2246c83b1b3d](https://github-production-user-asset-6210df.s3.amazonaws.com/22219089/260078661-bff402b9-c8bb-4d42-a1f2-2246c83b1b3d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231129%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231129T200056Z&X-Amz-Expires=300&X-Amz-Signature=5d03b287a85b13cc3ae28a29dd9e7f1c8779b5c6d9cedffcf730990fd6dec44d&X-Amz-SignedHeaders=host&actor_id=152231834&key_id=0&repo_id=677128696)">
+    <img width="782" alt="Screenshot 2024-02-25 at 12 34 28" src="https://github.com/Stanitaa/Youtube-data-Analysis-/assets/152231834/5df328a7-8e2b-4424-bcd9-e62a4b803fbe">
   <h6 align = "center" > 
   </p>
 
   Since we will not be manually processing new data every time, it is efficient to create ETL jobs that automate the data processing and data delivery task to the stakeholder. In our case, we join the two dataframes on category_id and id column and create a final cleaned data ready for analysis. The script has been uploaded in the file section.
-<img width="836" alt="Screenshot 2023-11-30 at 05 04 15" src="https://github.com/Stanitaa/Youtube-data-Analysis-/assets/152231834/2cd3d97e-a548-4cf8-a60b-f131f57abc7f">
-
-  <p align="center">
   
+  <p align="center">
+    <img width="612" alt="Screenshot 2024-02-25 at 12 34 37" src="https://github.com/Stanitaa/Youtube-data-Analysis-/assets/152231834/13199d17-f52c-4a0d-92ed-b4190bdc1115">
+  <p align="center">
   </p>
       
 * **Step 5** - Create a dashboard to visualize and answer questions according to business requirements or perform data analytics using AWS Athena.
   
     <p align="center">
-  <img width="800" height="700" src="https://github-production-user-asset-6210df.s3.amazonaws.com/22219089/260088129-1218e8f8-2a53-46e0-adb4-d6aecb8cb219.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231129%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231129T200140Z&X-Amz-Expires=300&X-Amz-Signature=7bf182a8e2e24f9b8c07557bfb22c9c2cce8b6259422e250eb6291ba44e34c24&X-Amz-SignedHeaders=host&actor_id=152231834&key_id=0&repo_id=677128696">
+      <img width="974" alt="Screenshot 2024-02-25 at 12 34 55" src="https://github.com/Stanitaa/Youtube-data-Analysis-/assets/152231834/ec945cbb-2a68-440e-be3d-17f834c64c70">
   <h6 align = "center" > 
   </p>
 
